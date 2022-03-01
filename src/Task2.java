@@ -8,7 +8,7 @@ public class Task2 {
         List<Integer> listOfNumbers = new ArrayList<>();
         detectNumber((ArrayList<Integer>) listOfNumbers);
         char yORn = 'y';
-        while (yORn == 'y') {
+        while (yORn == 'y' || yORn == 'Y') {
             System.out.println("Do you want to add more numbers: y/n");
             yORn = reader.next().charAt(0);
             if (yORn == 'n') {
